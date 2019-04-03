@@ -1,0 +1,16 @@
+Package: emojidome
+Title: Results from XKCD No. 2131, “Emojidome”
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Tom",
+           family = "Shafer",
+           role = c("aut", "cre"),
+           email = "contact@tshafer.com")
+Description: This package contains the results of XKCD's Emojidome competition, 
+    where 512 emoji were pitted against one another in a March Madness–style
+    superbracket.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Depends: R (>= 2.10)
