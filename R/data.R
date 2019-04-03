@@ -33,3 +33,21 @@
 #' }
 #' @source \url{https://emojidome.xkcd.com/2131/socket}
 "commentary"
+
+
+#' Emojitracker Data Set
+#'
+#' A dataset containing scores and metadata from \url{http://emojitracker.com},
+#' downloaded April 2, 2019.
+#'
+#' The scores are *very* large integers, stored as \code{numeric} type.
+#'
+#' @format A data frame with 845 rows and 4 variables:
+#' \describe{
+#'   \item{emoji_id}{emojitracker (UTF-8 derived) indentifer for an emoji}
+#'   \item{emoji_text}{alternate text or description for an emoji}
+#'   \item{emoji}{emoji character}
+#'   \item{score}{usage score as reported by emojitracker}
+#' }
+#' @source \url{http://emojitracker.com}
+"emojitracker"

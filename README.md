@@ -5,10 +5,12 @@
 
 ## R Package
 
-This R package, named `emojidome` contains two datasets:
+This R package, named `emojidome` contains ~two~three datasets:
 
   - `games`: a data.frame (a tibble) containing players and scores
   - `commentary`: a data.frame (a tibble) containing game commentary
+  - `emojitraacker`: a data.frame (a tibble) containing metadata and scores
+    collecte from [emojitracker][]
 
 You can install it easily using [devtools][]:
 
@@ -16,4 +18,5 @@ You can install it easily using [devtools][]:
 devtools::install_github("tomshafer/r-emojidome")
 ```
 
+[emojitracker]: http://emojitracker.com
 [devtools]: https://github.com/r-lib/devtools
